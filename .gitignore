@@ -1,0 +1,12 @@
+# Obsidian 系统文件
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# 插件缓存（不需要同步）
+.obsidian/plugins/obsidian-git/data.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,13 @@
+/* 限制 Mermaid 图最大宽度，防止撑满整个阅读区 */
+.mermaid,
+.mermaid svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 序列图和流程图超出时允许横向滚动，而非强制缩小到看不清 */
+.mermaid svg {
+    overflow-x: auto;
+    display: block;
+    margin: 0 auto;
+}
